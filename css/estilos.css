@@ -9,9 +9,13 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 700px;
     height: 500px;
-    background-color: red;
+   /*  background-color: red; */
+    background-image: url("../img/licuadoraApagada.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .blender-button {
@@ -19,4 +23,7 @@
     width: 70px;
     height: 70px;
     background-color: blue;
+    position:sticky;
 }
+
+
